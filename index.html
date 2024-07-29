@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <!-- Navbar header section -->
+    
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <h2 class="logo-heading">Sarah chaitanya</h2>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars hamburger-icon"></i>
+          <i class="fas fa-times cross-icon"></i>
+        </div>
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-items">
+              <a class="links" href="#home"> Home </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#portfolio"> Portfolio </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#about"> About </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#internship"> Internship </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#services"> Projects </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#contact"> Contact Me </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+      <div class="intro">
+        <div class="headings">
+          <h3 class="greet-heading">Hello, I'm</h3>
+          <h1 class="my-heading">Sarah chaitanya</h1>
+          <h4 class="sub-heading">Aspiring web developer</h4>
+        </div>
+        <div class="intro-buttons">
+          <button class="btn common-btn">Hire Me</button>
+          <!-- <button class="btn ghost-btn">Get Resume</button> -->
+          <a href="./RESUME/Sarah_Chaitanya_Resume.pdf" class="btn ghost-btn" download="Sarah_Chaitanya_Resume.pdf">
+    Get Resume
+</a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-heading">
+        <h1 class="my-heading text-center">Featured Portfolio</h1>
+      </div>
+      <div class="portfolio-content">
+        <div class="my-row">
+          <div class="my-col">
+            <div class="my-card port-card">
+              <!-- <div class="image">
+                <img src="./Images/designImage2.avif" alt="Web Design Image" />
+              </div> -->
+              <h3 class="greet-heading blue-text">Programming Languages</h3>
+              <p class="small-para blue-text">C Language, Python, DSA, Java</p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <!-- <div class="image">
+                <img
+                  src="./Images/webDevelopment2.avif"
+                  alt="Web Development Image"
+                />
+              </div> -->
+              <h3 class="greet-heading blue-text">Web designing</h3>
+              <p class="small-para blue-text">HTML, CSS, JavaScript</p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <!-- <div class="image">
+                <img src="./Images/SEOImage2.avif" alt="SEO Image" />
+              </div> -->
+              <h3 class="greet-heading blue-text">Database Knowledge</h3>
+              <p class="small-para blue-text">MySQL, OS</p>
+            </div>
+          </div>
+        </div>
+        <div class="my-row">
+          <div class="my-col">
+            <div class="my-card port-card">
+              <!-- <div class="image">
+                <img
+                  src="./Images/contentImage2.avif"
+                  alt="Content Writting Image"
+                />
+              </div> -->
+              <h3 class="greet-heading blue-text">Content Writing</h3>
+              <p class="small-para blue-text">Writing</p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <!-- <div class="image">
+                <img
+                  src="./Images/wordpressImage2.avif"
+                  alt="Wordpress Image"
+                />
+              </div> -->
+              <h3 class="greet-heading blue-text">Software and Libraries
+</h3>
+              <p class="small-para blue-text"> Numpy, Matplotlib, Sklearn, LSTM</p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <!-- <div class="image">
+                <img
+                  src="./Images/videoEditing2.avif"
+                  alt="Video Editing Image"
+                />
+              </div> -->
+              <h3 class="greet-heading blue-text">UTilities and Tools</h3>
+              <p class="small-para blue-text">Git,Github, Bash</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-text">
+        <h1 class="my-heading">About Me</h1>
+        <p class="lead-para">
+          <p> Hello, I am Sarah Chaitanya Motupalli from Krishna District, Andhra
+          Pradesh. I completed my B.Tech in 2022 from Gudlavalleru Engineering
+          College under JNTU, Kakinada, with a CGPA of 7.14. Prior to that, I
+          attended Sri Chaitanya Junior Girls College for my intermediate
+          education and Ravindra Bharathi Public School for my SSC, achieving an
+          81.8% and an 8.7 CGPA respectively. </p>
+          <p> I have a strong technical foundation with proficiency in C, Python, DSA,
+          and Java. I am skilled in web designing using HTML, CSS, and JavaScript,
+          and have a solid understanding of databases with MySQL. My practical
+          experience includes a mini project on facial expression-based music using
+          Python and OpenCV, and a major project on Bitcoin price prediction using
+          LSTM.</p>
+          <p >I also completed an internship where I developed a News Tracker
+          using Bloomberg Market and Financial News API on IBM Cloud.
+          Additionally, I have participated in several workshops and programs,
+          including the Engineering Orientation Program by APSSDC and the NEW
+          INDIA LEARNATHON 2020 by ICT Academy. Recently, I trained as a Full
+          Stack Java Developer. </p>
+          <p> I am passionate about learning new technologies,
+          possess strong problem-solving skills, and enjoy working as part of a
+          team. Fluent in Telugu, English, and Hindi, I am eager to leverage my
+          skills and knowledge in a dynamic work environment.</p>
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="./Images/about_me.jpeg" alt="About Image" />
+      </div>
+    </section>
+    <section id="internship" class="internship">
+      <div class="internship-heading">
+        <h1 class="my-heading text-center">Internship</h1>
+      </div>
+      <div class="internship-content">
+        <div class="my-row">
+          <div class="my-col">
+            <div class="my-card">
+              <h3 class="greet-heading blue-text">News Tracker Development</h3>
+              <p class="small-para">
+                During my internship, I developed a News Tracker application using
+                Bloomberg Market and Financial News API on IBM Cloud. This project
+                involved fetching real-time financial news and market data, and
+                presenting it in a user-friendly format.
+              </p>
+              <p class="small-para">
+                The application was built with a focus on providing accurate and
+                timely information to users, utilizing cloud services for
+                scalability and reliability. This experience enhanced my skills in
+                API integration, cloud computing, and real-time data processing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="services-heading">
+        <h1 class="my-heading text-center">My Projects</h1>
+      </div>
+      <div class="services-content">
+        <div class="my-row">
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <h3 class="greet-heading blue-text">Facial Expression Based Music Using Flask App</h3>
+              <p class="small-para">
+                Facial expression-based music is an innovative application leveraging Python, OpenCV, and the Eel library to create an interactive and personalized music experience. By analyzing users' facial expressions through real-time video capture, the app can dynamically select and play music that matches the user's current mood.
+              </p>
+              <p class="small-para">
+                Developed with the Flask framework, this app integrates computer vision and web technologies to provide a seamless user experience. OpenCV handles the facial expression recognition, while Eel bridges the gap between Python and web-based front-end interfaces, enabling the app to run smoothly in a browser environment. This combination ensures an engaging and responsive music recommendation system based on emotional cues.
+              </p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3 class="greet-heading blue-text">Web Development- Portfolio</h3>
+              <p class="small-para">
+                This portfolio website showcases my skills and projects as an aspiring web developer. Built using HTML, CSS, and JavaScript, the site is designed to be fully responsive, ensuring an optimal viewing experience across various devices and screen sizes. The layout includes sections for my personal introduction, featured portfolio, detailed project descriptions, and contact information.
+              </p>
+              <p class="small-para">
+                The design emphasizes clean, modern aesthetics with intuitive navigation, allowing visitors to easily explore my work and background. Interactive elements, such as a hamburger menu for mobile navigation and dynamic buttons, enhance user engagement. This project demonstrates my proficiency in front-end web development and my ability to create visually appealing and user-friendly websites.
+              </p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3 class="greet-heading blue-text">Bitcoin Price Prediction Using LSTM</h3>
+              <p class="small-para">
+                Bitcoin price prediction using LSTM (Long Short-Term Memory) networks is a powerful application of machine learning to forecast cryptocurrency trends. By leveraging historical price data, the LSTM model can identify patterns and make informed predictions about future Bitcoin prices, providing valuable insights for investors.
+              </p>
+              <p class="small-para">
+               Developed in Python, this project utilizes libraries such as TensorFlow and Keras for constructing and training the LSTM network. Data preprocessing and visualization are handled by Pandas and Matplotlib, ensuring the accuracy and clarity of the predictive models. This approach offers a sophisticated tool for navigating the volatile cryptocurrency market.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+      <div class="contact-heading">
+        <h1 class="my-heading text-center">Contact Me</h1>
+      </div>
+      <div class="contact-content">
+        <div class="contact-form-container">
+          <h1 class="greet-heading">Get In Touch</h1>
+          <form class="contact-form">
+            <input class="form-controls" type="text" placeholder="Your Name" />
+            <input class="form-controls" type="text" placeholder="Your Email" />
+            <input class="form-controls" type="text" placeholder="Your Phone" />
+            <textarea
+              class="form-controls"
+              placeholder="Write your message"
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+            >
+            </textarea>
+            <input
+              class="form-btn btn common-btn"
+              type="submit"
+              value="Send Message"
+            />
+          </form>
+        </div>
+        <div class="contact-details">
+          <h1 class="greet-heading">My Contact Details</h1>
+          <div class="details">
+            <h5 class="contact-heading">EMAIL</h5>
+            <p class="contact-text">mschaitanya27@gmail.com</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">PHONE</h5>
+            <p class="contact-text">+91 9346468557</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">FAX</h5>
+            <p class="contact-text">+91 0123456789</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">ADDRESS</h5>
+            <p class="contact-text">7-310,</p>
+            <p>Flora School road, Vuyyuru Mandal</p>
+            <p>Krishna District – 521165</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="footer-content text-center">
+        <h4>
+          Copyright © 2023 All rights reserved | This portfolio website template
+          is created by Sarah chaitanya.
+        </h4>
+        <div class="social-links">
+          <div class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-list-items">
+                <a class="footer-links" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a class="footer-links" href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a class="footer-links" href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a class="footer-links" href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
